@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
+import { Header, Container } from "./components";
 import "./App.css";
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Portfolio em desenvolvimento máximo</h1>;
+  return <Header />;
 }
 
 export default App;
