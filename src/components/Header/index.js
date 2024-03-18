@@ -15,42 +15,71 @@ function Header() {
         <p className="text-4xl font-semibold">
           Kaique<span className="text-green-600">.dev</span>
         </p>
-        <div className={`hidden md:flex gap-20 bg-custom-black ${isOpen ? "open" : ""}`} id="menu">
+        <div
+          className={`hidden md:flex text-lg font-medium gap-20 bg-custom-black`}
+        >
           <NavLink href="#">Home</NavLink>
           <NavLink href="#">Sobre</NavLink>
           <NavLink href="#">Educação</NavLink>
           <NavLink href="#">Contato</NavLink>
         </div>
-        <button className="md:hidden text-white" onClick={toggle}>
-          <svg
-            className="h-6 w-6 fill-current"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
+        {!isOpen && (
+          <button
+            className="md:hidden duration-300 text-white"
+            onClick={toggle}
           >
-            {isOpen ? (
+            <svg
+              className="h-6 w-6 fill-current"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
               <path
                 fillRule="evenodd"
                 clipRule="evenodd"
                 d="M4 6h16v2H4V6zm0 5h16v2H4v-2zm16 5H4v2h16v-2z"
               />
-            ) : (
-              <path
-                fillRule="evenodd"
-                clipRule="evenodd"
-                d="M4 6h16v2H4V6zm0 5h16v2H4v-2zm0 5h16v2H4v-2z"
-              />
-            )}
-          </svg>
-        </button>
+            </svg>
+          </button>
+        )}
       </nav>
 
-      {/* <div className={`md:hidden ${isOpen ? "block" : "hidden"}`} id="menu">
-        <ul>
-          <li><a href="#">Item 1</a></li>
-          <li><a href="#">Item 2</a></li>
-          <li><a href="#">Item 3</a></li>
+      <div
+        className={`${
+          isOpen ? "open border-l-4" : "close"
+        } border-green-600 w-0 absolute h-full`}
+        id="menu"
+      >
+        <button
+          className="md:hidden text-white absolute right-4 top-7"
+          onClick={toggle}
+        >
+          <svg
+            className="h-6 w-6 fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fillRule="evenodd"
+              clipRule="evenodd"
+              d="M19.78 18.36l-5.78-5.79 5.79-5.78-1.42-1.42-5.79 5.79-5.78-5.79-1.42 1.42 5.79 5.78-5.79 5.79 1.42 1.42 5.78-5.79 5.79 5.79 1.42-1.42z"
+            />
+          </svg>
+        </button>
+        <ul className="text-2xl text-white flex flex-col gap-10 p-5">
+          <li>
+            <NavLink href="#">Home</NavLink>
+          </li>
+          <li>
+            <NavLink href="#">Sobre</NavLink>
+          </li>
+          <li>
+            <NavLink href="#">Educação</NavLink>
+          </li>
+          <li>
+            <NavLink href="#">Contato</NavLink>
+          </li>
         </ul>
-      </div> */}
+      </div>
     </Fragment>
   );
 }

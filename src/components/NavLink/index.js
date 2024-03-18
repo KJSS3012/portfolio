@@ -1,10 +1,10 @@
 import React from "react";
 
-function NavLink({ href, children }) {
+function NavLink({ href, children, className }) {
   return (
     <a
       href={href}
-      className="hover:text-green-600 duration-300 text-lg font-medium cursor-pointer"
+      className={`hover:text-green-600 duration-300 cursor-pointer ${className}`}
     >
       {children}
     </a>
