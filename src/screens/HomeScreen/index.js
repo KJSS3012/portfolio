@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import { Header } from "../../components";
+import { Header, Container } from "../../components";
 
 function HomeScreen() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,6 +13,9 @@ function HomeScreen() {
   return (
     <Fragment>
       <Header isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Container>
+        <p className="text-4xl text-white">Portfolio em Construção</p>
+      </Container>
     </Fragment>
   );
 }

@@ -8,11 +8,13 @@ module.exports = {
     extend: {
       height: {
         header: "12vh",
+        container: "88vh",
       },
     },
     colors: {
       "custom-black": "#16181a",
       "custom-black-700": "#16181a9f",
+      "custom-green": "#16A34A",
       ...colors,
     },
   },

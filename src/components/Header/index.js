@@ -9,9 +9,9 @@ function Header(props) {
 
   return (
     <Fragment>
-      <nav className="flex justify-between items-center bg-custom-black text-white h-header fixed w-full py-6 px-6 lg:px-12">
+      <nav className="z-10 flex justify-between items-center bg-custom-black text-white h-header fixed w-full py-6 px-6 lg:px-12">
         <p className="text-4xl font-semibold">
-          Kaique<span className="text-green-600">.dev</span>
+          Kaique<span className="text-custom-green">.dev</span>
         </p>
         <div
           className={`hidden lg:flex text-lg font-medium gap-10 bg-custom-black`}
@@ -46,7 +46,7 @@ function Header(props) {
       <div
         className={`${
           props.isOpen ? "open border-l-4" : "close"
-        } border-green-600 w-0 absolute h-full`}
+        } border-custom-green w-0 absolute h-full z-10`}
         id="menu"
       >
         <button

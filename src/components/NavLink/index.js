@@ -4,7 +4,7 @@ function NavLink({ href, children, className }) {
   return (
     <a
       href={href}
-      className={`hover:text-green-600 duration-300 cursor-pointer ${className}`}
+      className={`hover:text-custom-green duration-300 cursor-pointer ${className}`}
     >
       {children}
     </a>
