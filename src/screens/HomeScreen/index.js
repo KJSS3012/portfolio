@@ -1,10 +1,18 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import { Header } from "../../components";
 
 function HomeScreen() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  window.addEventListener("resize", function () {
+    if (window.innerWidth > 1024) {
+      setIsOpen(false);
+    }
+  });
+
   return (
     <Fragment>
-      <Header />
+      <Header isOpen={isOpen} setIsOpen={setIsOpen} />
     </Fragment>
   );
 }
