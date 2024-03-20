@@ -9,7 +9,10 @@ function Header(props) {
 
   return (
     <Fragment>
-      <nav className="z-10 flex justify-between items-center bg-custom-black text-white h-header fixed w-full py-6 px-6 lg:px-12">
+      <nav
+        className="flex justify-between items-center z-10 h-header fixed w-full bg-custom-black text-white py-6 px-6 lg:px-12"
+        id="navbar"
+      >
         <p className="text-4xl font-semibold">
           Kaique<span className="text-custom-green">.dev</span>
         </p>
