@@ -1,8 +1,8 @@
-import { Header, Container } from "./components";
+import Router from "./routes";
 import "./App.css";
 
 function App() {
-  return <Header />;
+  return <Router />;
 }
 
 export default App;
