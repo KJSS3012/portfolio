@@ -32,7 +32,7 @@ function HomeScreen() {
               Kaique Santos
             </h1>
             <p
-              className="text-base text-wrap text-justify"
+              className="text-base text-wrap text-justify overflow-hidden"
               data-aos="fade-right"
             >
               Olá! É um prazer recebê-lo(a) aqui! Preparado(a) para uma jornada
