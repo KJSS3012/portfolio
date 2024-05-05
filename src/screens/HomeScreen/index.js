@@ -6,10 +6,12 @@ import {
   WhiteButton,
   Logo,
 } from "../../components";
-import { gitLogo, linkedinLogo } from "../../assets";
+import { gitLogo, linkedinLogo, profileImage } from "../../assets";
 
 function HomeScreen() {
   const [isOpen, setIsOpen] = useState(false);
+  const githubLink = "https://github.com/KJSS3012";
+  const linkedinLink = "https://linkedin.com/in/kaiquesantos-dev";
 
   window.addEventListener("resize", function () {
     if (window.innerWidth > 1024) {
@@ -21,7 +23,7 @@ function HomeScreen() {
     <Fragment>
       <Header isOpen={isOpen} setIsOpen={setIsOpen} />
       <Container>
-        <section className="flex" id="Section-Initial">
+        <section className="flex lg:flex-row flex-col lg:justify-between" id="Section-Initial">
           <div className="flex flex-col gap-10 text-white w-full lg:w-1/2">
             <h1
               className="text-4xl lg:text-6xl font-semibold text-center lg:text-left "
@@ -55,12 +57,15 @@ function HomeScreen() {
               data-aos="fade-right"
             >
               <p>Minhas redes:</p>
-              <Logo href={"https://github.com/KJSS3012"} img={gitLogo} />
+              <Logo href={githubLink} img={gitLogo} />
               <Logo
-                href={"https://linkedin.com/in/kaiquesantos-dev"}
+                href={linkedinLink}
                 img={linkedinLogo}
               />
             </div>
+          </div>
+          <div className="lg:block hidden" data-aos="fade-left">
+            <img src={profileImage} className="w-96" />
           </div>
         </section>
       </Container>
