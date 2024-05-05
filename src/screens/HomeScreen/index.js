@@ -23,10 +23,10 @@ function HomeScreen() {
     <Fragment>
       <Header isOpen={isOpen} setIsOpen={setIsOpen} />
       <Container>
-        <section className="flex lg:flex-row flex-col lg:justify-between" id="Section-Initial">
+        <section className="flex lg:flex-row flex-col lg:justify-between lg:gap-0 gap-10" id="Section-Initial">
           <div className="flex flex-col gap-10 text-white w-full lg:w-1/2">
             <h1
-              className="text-4xl lg:text-6xl font-semibold text-center lg:text-left "
+              className="text-4xl lg:text-6xl font-semibold text-center lg:text-left overflow-hidden"
               data-aos="fade-down"
             >
               Kaique Santos
@@ -64,7 +64,7 @@ function HomeScreen() {
               />
             </div>
           </div>
-          <div className="lg:block hidden" data-aos="fade-left">
+          <div className="flex justify-center items-center" data-aos="fade-left">
             <img src={profileImage} className="w-96" />
           </div>
         </section>

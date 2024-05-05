@@ -10,11 +10,11 @@ function Header(props) {
   return (
     <Fragment>
       <nav
-        className="flex justify-between items-center z-10 h-header fixed w-full bg-custom-black text-white py-6 px-6 lg:px-12"
+        className="flex justify-between items-center z-10 h-header fixed w-full bg-custom-black text-white py-6 px-6 lg:px-12 overflow-hidden"
         id="navbar"
       >
-        <p className="text-4xl font-semibold ">
-          Kaique<span className="text-custom-green">.dev</span>
+        <p className="text-4xl font-semibold overflow-hidden">
+          Kaique<span className="text-custom-blue">.dev</span>
         </p>
         <div
           className={`hidden lg:flex text-lg font-medium gap-10 bg-custom-black`}
@@ -49,7 +49,7 @@ function Header(props) {
       <div
         className={`${
           props.isOpen ? "open border-l-4" : "close"
-        } border-custom-green w-0 absolute h-full z-10`}
+        } border-custom-blue w-0 fixed h-full z-10`}
         id="menu"
       >
         <button
@@ -69,22 +69,22 @@ function Header(props) {
           </svg>
         </button>
         <ul className="text-2xl text-white flex flex-col gap-10 p-5">
-          <li>
+          <li className="overflow-hidden">
             <NavLink href="#">Home</NavLink>
           </li>
-          <li>
+          <li className="overflow-hidden">
             <NavLink href="#">Tecnologias</NavLink>
           </li>
-          <li>
+          <li className="overflow-hidden">
             <NavLink href="#">Sobre</NavLink>
           </li>
-          <li>
+          <li className="overflow-hidden">
             <NavLink href="#">Educação</NavLink>
           </li>
-          <li>
+          <li className="overflow-hidden">
             <NavLink href="#">Profissional</NavLink>
           </li>
-          <li>
+          <li className="overflow-hidden">
             <NavLink href="#">Contato</NavLink>
           </li>
         </ul>

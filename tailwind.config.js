@@ -14,7 +14,7 @@ module.exports = {
     colors: {
       "custom-black": "#16181a",
       "custom-black-700": "#16181a9f",
-      "custom-green": "#006CEC",
+      "custom-blue": "#006CEC",
       ...colors,
     },
   },

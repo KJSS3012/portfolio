@@ -5,5 +5,22 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px; /* largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+  background: #16181a; /* cor de fundo da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #006cec; /* cor do indicador da barra de rolagem */
+  border-radius: 4px; /* borda arredondada do indicador */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0056b3; /* cor do indicador ao passar o mouse */
 }
