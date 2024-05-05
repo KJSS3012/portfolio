@@ -1,5 +1,12 @@
 import React, { Fragment, useState } from "react";
-import { Header, Container, GreenButton, WhiteButton } from "../../components";
+import {
+  Header,
+  Container,
+  GreenButton,
+  WhiteButton,
+  Logo,
+} from "../../components";
+import { gitLogo, linkedinLogo } from "../../assets";
 
 function HomeScreen() {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,13 +48,18 @@ function HomeScreen() {
                   "https://docs.google.com/viewer?url=https://docs.google.com/document/d/1zZqvjBPF7hMNshYG1jrKB4N5C-v1sVQhMVgo5qjatPE/export?format=pdf"
                 }
               />
-              <WhiteButton title="Meus Projetos" />
+              <WhiteButton title="Meus Projetos" href={""} />
             </div>
             <div
-              className="flex text-white font-semibold"
+              className="flex text-white font-semibold gap-3"
               data-aos="fade-right"
             >
               <p>Minhas redes:</p>
+              <Logo href={"https://github.com/KJSS3012"} img={gitLogo} />
+              <Logo
+                href={"https://linkedin.com/in/kaiquesantos-dev"}
+                img={linkedinLogo}
+              />
             </div>
           </div>
         </section>

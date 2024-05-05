@@ -6,10 +6,10 @@
   .open {
     right: 0 !important;
     width: 50% !important;
-    background-color: #16181ad9;
+    background-color: rgb(25, 26, 22);
     transition: .3s;
   }
 
   #navbar{
-    box-shadow: 0 -12px 15px 5px #16A34A;
+    box-shadow: 0 -12px 15px 5px #1AA843;
   }
