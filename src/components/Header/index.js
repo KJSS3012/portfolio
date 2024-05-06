@@ -10,7 +10,7 @@ function Header(props) {
   return (
     <Fragment>
       <nav
-        className="flex justify-between items-center z-10 h-header fixed w-full bg-custom-black text-white py-6 px-6 lg:px-12 overflow-hidden"
+        className="flex justify-between items-center z-10 h-header fixed w-full bg-custom-black text-white py-6 px-6 overflow-hidden"
         id="navbar"
       >
         <p className="text-4xl font-semibold overflow-hidden">

@@ -3,8 +3,8 @@ import React from "react";
 function Container({ children }) {
   return (
     <main
-      className="w-screen h-full absolute bg-custom-black z-0 py-12 px-6"
-      style={{ top: "10vh" }}
+      className="flex flex-col w-screen bg-custom-black py-12 gap-20"
+      style={{ padding: "15vh 24px 15vh 24px" }}
       id="container"
     >
       {children}
