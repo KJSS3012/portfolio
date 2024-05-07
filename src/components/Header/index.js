@@ -19,8 +19,8 @@ function Header(props) {
         <div
           className={`hidden lg:flex text-lg font-medium gap-10 bg-custom-black`}
         >
-          <NavLink href="#">Home</NavLink>
-          <NavLink href="#">Sobre</NavLink>
+          <NavLink isTop={true}>Home</NavLink>
+          <NavLink href="#about">Sobre</NavLink>
           <NavLink href="#">Tecnologias</NavLink>
           <NavLink href="#">Educação</NavLink>
           <NavLink href="#">Profissional</NavLink>
@@ -70,13 +70,13 @@ function Header(props) {
         </button>
         <ul className="text-2xl text-white flex flex-col gap-10 p-5">
           <li className="overflow-hidden">
-            <NavLink href="#">Home</NavLink>
+            <NavLink isTop={true}>Home</NavLink>
+          </li>
+          <li className="overflow-hidden">
+            <NavLink href="#about">Sobre</NavLink>
           </li>
           <li className="overflow-hidden">
             <NavLink href="#">Tecnologias</NavLink>
-          </li>
-          <li className="overflow-hidden">
-            <NavLink href="#">Sobre</NavLink>
           </li>
           <li className="overflow-hidden">
             <NavLink href="#">Educação</NavLink>

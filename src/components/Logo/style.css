@@ -1,10 +1,11 @@
-/* CSS para o efeito hover no SVG */
-svg:hover path {
-  stroke-opacity: 1;
+#link-social{
+  height: 2rem;
 }
 
-/* CSS para o efeito de transição suave */
-svg path {
-  stroke-opacity: 0;
-  transition: stroke-opacity 0.3s ease;
+#social-photo{
+  width: 80%;
+  transition: 0.3s;
+}
+#social-photo:hover{
+  width: 110%;
 }

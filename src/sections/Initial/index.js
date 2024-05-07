@@ -9,7 +9,7 @@ function InitialSection() {
   return (
     <section
       className="flex lg:flex-row flex-col lg:justify-between lg:gap-0 gap-10"
-      id="Section-Initial"
+      id="hero"
     >
       <div className="flex flex-col gap-10 text-white w-full lg:w-1/2">
         <h1

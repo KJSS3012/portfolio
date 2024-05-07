@@ -6,7 +6,9 @@ import reportWebVitals from "./reportWebVitals";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-Aos.init();
+Aos.init({
+  duration: 1500,
+});
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutSection() {
   return (
-    <section className="flex flex-col gap-6">
+    <section className="flex flex-col gap-6" id="about">
       <p className="text-custom-blue font-semibold text-center" data-aos="fade-down">Um pouco sobre mim</p>
       <p className="text-white text-justify" data-aos="fade-left">
         Meu nome é Kaique e sempre tive uma afinidade natural com a tecnologia,
