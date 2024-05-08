@@ -39,7 +39,7 @@ function InitialSection() {
           data-aos="fade-right"
         >
           <GreenButton title="Ver CV" href={cv} />
-          <WhiteButton title="Meus Projetos" href={""} />
+          <WhiteButton title="Meus Projetos" href={"/projects"} />
         </div>
         <div
           className="flex text-white font-semibold gap-3 items-center"
