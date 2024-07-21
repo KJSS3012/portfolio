@@ -21,7 +21,7 @@ function Header(props) {
         >
           <NavLink isTop={true}>Home</NavLink>
           <NavLink href="#about">Sobre</NavLink>
-          <NavLink href="#">Tecnologias</NavLink>
+          <NavLink href="#skill">Tecnologias</NavLink>
           <NavLink href="#">Educação</NavLink>
           <NavLink href="#">Profissional</NavLink>
           <NavLink href="#">Contato</NavLink>
@@ -76,7 +76,7 @@ function Header(props) {
             <NavLink href="#about">Sobre</NavLink>
           </li>
           <li className="overflow-hidden">
-            <NavLink href="#">Tecnologias</NavLink>
+            <NavLink href="#skill">Tecnologias</NavLink>
           </li>
           <li className="overflow-hidden">
             <NavLink href="#">Educação</NavLink>
