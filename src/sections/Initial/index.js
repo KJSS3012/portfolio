@@ -1,5 +1,5 @@
 import React from "react";
-import { GreenButton, WhiteButton, Logo } from "../../components";
+import { BlueButtom, WhiteButton, Logo } from "../../components";
 import {
   gitLogo,
   linkedinLogo,
@@ -15,9 +15,7 @@ function InitialSection() {
     "https://docs.google.com/viewer?url=https://docs.google.com/document/d/1zZqvjBPF7hMNshYG1jrKB4N5C-v1sVQhMVgo5qjatPE/export?format=pdf";
 
   return (
-    <section
-      className="flex lg:flex-row flex-col lg:justify-between lg:gap-0 gap-10"
-    >
+    <section className="flex lg:flex-row flex-col lg:justify-between lg:gap-0 gap-10">
       <div className="flex flex-col gap-10 text-white w-full lg:w-1/2">
         <h1
           className="text-4xl lg:text-6xl font-semibold text-center lg:text-left overflow-hidden"
@@ -38,7 +36,7 @@ function InitialSection() {
           className="flex gap-0 lg:gap-7 justify-between lg:justify-normal w-full"
           data-aos="fade-right"
         >
-          <GreenButton title="Ver CV" href={cv} />
+          <BlueButtom title="Ver CV" href={cv} />
           <WhiteButton title="Meus Projetos" href={"/projects"} />
         </div>
         <div
@@ -47,8 +45,8 @@ function InitialSection() {
         >
           <p>Minhas redes:</p>
           <Logo href={githubLink} img={gitLogo} title={"Github"} />
-          <Logo href={linkedinLink} img={linkedinLogo} title={"Linkedin"}/>
-          <Logo href={linktreeLink} img={linktreeLogo} title={"Linktree"}/>
+          <Logo href={linkedinLink} img={linkedinLogo} title={"Linkedin"} />
+          <Logo href={linktreeLink} img={linktreeLogo} title={"Linktree"} />
         </div>
       </div>
       <div className="flex justify-center items-center" data-aos="fade-left">

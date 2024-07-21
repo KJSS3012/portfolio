@@ -1,3 +1,72 @@
 {
-  "teste": "Ola"
+  "front-end": [
+    {
+      "title": "HTML",
+      "image": "/assets/img/skills/html.svg"
+    },
+    {
+      "title": "CSS",
+      "image": "/assets/img/skills/css.svg"
+    },
+    {
+      "title": "JavaScript",
+      "image": "/assets/img/skills/javascript.svg"
+    },
+    {
+      "title": "React",
+      "image": "/assets/img/skills/react.svg"
+    },
+    {
+      "title": "Bootstrap",
+      "image": "/assets/img/skills/bootstrap.svg"
+    },
+    {
+      "title": "Tailwind",
+      "image": "/assets/img/skills/tailwind.svg"
+    }
+  ],
+  "back-end": [
+    {
+      "title": "Java",
+      "image": "/assets/img/skills/java.svg"
+    },
+    {
+      "title": "PHP",
+      "image": "/assets/img/skills/php.svg"
+    },
+    {
+      "title": "Node.js",
+      "image": "/assets/img/skills/nodejs.svg"
+    },
+    {
+      "title": "Laravel",
+      "image": "/assets/img/skills/laravel.svg"
+    },
+    {
+      "title": "MySQL",
+      "image": "/assets/img/skills/mysql.svg"
+    },
+    {
+      "title": "MongoDB",
+      "image": "/assets/img/skills/mongodb.svg"
+    }
+  ],
+  "programming-tools": [
+    {
+      "title": "Git",
+      "image": "/assets/img/skills/git.svg"
+    },
+    {
+      "title": "Postman",
+      "image": "/assets/img/skills/postman.svg"
+    },
+    {
+      "title": "Figma",
+      "image": "/assets/img/skills/figma.svg"
+    },
+    {
+      "title": "Trello",
+      "image": "/assets/img/skills/trello.svg"
+    }
+  ]
 }
