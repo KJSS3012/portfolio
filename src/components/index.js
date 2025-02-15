@@ -6,8 +6,9 @@ import NavLink from "./NavLink";
 import BlueButtom from "./Buttons/BlueButton";
 import WhiteButton from "./Buttons/WhiteButton";
 import Logo from "./Logo";
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "./Titles/SectionTitle";
 import SkillBox from "./SkillBox";
+import Indicator from "./TimeLine/Indicator";
 
 export {
   Container,
@@ -19,4 +20,5 @@ export {
   Logo,
   SectionTitle,
   SkillBox,
+  Indicator
 };

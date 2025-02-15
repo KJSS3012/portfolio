@@ -10,7 +10,7 @@ function Header(props) {
   return (
     <Fragment>
       <nav
-        className="flex justify-between items-center z-10 h-header fixed w-full bg-custom-black text-white py-6 px-6 overflow-hidden"
+        className="flex justify-between items-center z-10 h-header fixed w-full bg-custom-black text-white py-6 px-[3rem] overflow-hidden"
         id="navbar"
       >
         <p className="text-4xl font-semibold overflow-hidden">
@@ -22,8 +22,8 @@ function Header(props) {
           <NavLink href={"#home"}>Home</NavLink>
           <NavLink href="#about">Sobre</NavLink>
           <NavLink href="#skill">Tecnologias</NavLink>
-          <NavLink href="#">Educação</NavLink>
-          <NavLink href="#">Profissional</NavLink>
+          <NavLink href="#education">Educação</NavLink>
+          <NavLink href="#main-projects">Principais Projetos</NavLink>
           <NavLink href="#">Contato</NavLink>
         </div>
         {!props.isOpen && (
@@ -79,10 +79,10 @@ function Header(props) {
             <NavLink href="#skill">Tecnologias</NavLink>
           </li>
           <li className="overflow-hidden">
-            <NavLink href="#">Educação</NavLink>
+            <NavLink href="#education">Educação</NavLink>
           </li>
           <li className="overflow-hidden">
-            <NavLink href="#">Profissional</NavLink>
+            <NavLink href="#main-projects">Principais Projetos</NavLink>
           </li>
           <li className="overflow-hidden">
             <NavLink href="#">Contato</NavLink>
