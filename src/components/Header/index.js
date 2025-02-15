@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from "react";
+import React, { Fragment } from "react";
 import { NavLink } from "../";
 import "./style.css";
 
@@ -19,7 +19,7 @@ function Header(props) {
         <div
           className={`hidden lg:flex text-lg font-medium gap-10 bg-custom-black`}
         >
-          <NavLink isTop={true}>Home</NavLink>
+          <NavLink href={"#home"}>Home</NavLink>
           <NavLink href="#about">Sobre</NavLink>
           <NavLink href="#skill">Tecnologias</NavLink>
           <NavLink href="#">Educação</NavLink>
@@ -70,7 +70,7 @@ function Header(props) {
         </button>
         <ul className="text-2xl text-white flex flex-col gap-10 p-5">
           <li className="overflow-hidden">
-            <NavLink isTop={true}>Home</NavLink>
+            <NavLink href={"#home"}>Home</NavLink>
           </li>
           <li className="overflow-hidden">
             <NavLink href="#about">Sobre</NavLink>

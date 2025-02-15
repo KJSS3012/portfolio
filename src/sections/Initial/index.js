@@ -11,8 +11,7 @@ function InitialSection() {
   const githubLink = "https://github.com/KJSS3012";
   const linkedinLink = "https://linkedin.com/in/kaiquesantos-dev";
   const linktreeLink = "https://linktr.ee/kaiquesantos.dev";
-  const cv =
-    "https://docs.google.com/viewer?url=https://docs.google.com/document/d/1zZqvjBPF7hMNshYG1jrKB4N5C-v1sVQhMVgo5qjatPE/export?format=pdf";
+  const curricukum = "/assets/pdf/curriculum.pdf";
 
   return (
     <section className="flex lg:flex-row flex-col lg:justify-between lg:gap-0 gap-10">
@@ -36,11 +35,11 @@ function InitialSection() {
           className="flex gap-0 lg:gap-7 justify-between lg:justify-normal w-full"
           data-aos="fade-right"
         >
-          <BlueButtom title="Ver CV" href={cv} />
+          <BlueButtom title="Ver Curriculum" href={curricukum} />
           <WhiteButton title="Meus Projetos" href={"/projects"} />
         </div>
         <div
-          className="flex text-white font-semibold gap-3 items-center"
+          className="flex text-white font-semibold gap-1 items-center"
           data-aos="fade-right"
         >
           <p>Minhas redes:</p>
@@ -50,7 +49,7 @@ function InitialSection() {
         </div>
       </div>
       <div className="flex justify-center items-center" data-aos="fade-left">
-        <img src={profileImage} className="w-96" />
+        <img src={profileImage} className="w-96" alt=""/>
       </div>
     </section>
   );

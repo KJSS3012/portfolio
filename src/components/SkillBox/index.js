@@ -7,7 +7,7 @@ function SkillBox(props) {
       key={props.key}
       data-aos="flip-left"
     >
-      <img src={props.image} />
+      <img src={props.image} alt="" className="max-h-1/2 max-w-1/2"/>
       <p className="text-white">{props.title}</p>
     </div>
   );

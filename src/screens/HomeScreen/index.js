@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from "react";
 import { Header, Container } from "../../components";
-import { InitialSection, AboutSection, SkillSection } from "../../sections";
+import { InitialSection, AboutSection, SkillSection, EducationSection } from "../../sections";
 
 function HomeScreen() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +18,7 @@ function HomeScreen() {
         <InitialSection />
         <AboutSection />
         <SkillSection/>
+        <EducationSection/>
       </Container>
     </Fragment>
   );
