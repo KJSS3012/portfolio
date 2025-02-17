@@ -35,7 +35,7 @@ function InitialSection() {
           className="flex gap-0 lg:gap-7 justify-between lg:justify-normal w-full"
           data-aos="fade-right"
         >
-          <BlueButtom title="Ver Curriculum" href={curricukum} />
+          <BlueButtom title="Ver Curriculum" href={curricukum} isCurriculum={true}/>
           <WhiteButton title="Meus Projetos" href={"/projects"} />
         </div>
         <div
