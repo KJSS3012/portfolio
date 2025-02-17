@@ -23,8 +23,8 @@ function Header(props) {
           <NavLink href="#about">Sobre</NavLink>
           <NavLink href="#skill">Tecnologias</NavLink>
           <NavLink href="#education">Educação</NavLink>
-          <NavLink href="#main-projects">Principais Projetos</NavLink>
-          <NavLink href="#">Contato</NavLink>
+          <NavLink href="#projects">Projetos</NavLink>
+          <NavLink href="#home">Contato</NavLink>
         </div>
         {!props.isOpen && (
           <button
@@ -82,10 +82,10 @@ function Header(props) {
             <NavLink href="#education">Educação</NavLink>
           </li>
           <li className="overflow-hidden">
-            <NavLink href="#main-projects">Principais Projetos</NavLink>
+            <NavLink href="#projects">Projetos</NavLink>
           </li>
           <li className="overflow-hidden">
-            <NavLink href="#">Contato</NavLink>
+            <NavLink href="#home">Contato</NavLink>
           </li>
         </ul>
       </div>

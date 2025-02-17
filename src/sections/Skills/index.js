@@ -27,7 +27,7 @@ function SkillSection() {
   return (
     <section className="flex flex-col gap-6" id="skill">
       <SectionTitle>Minhas Tecnologias</SectionTitle>
-      <div className="grid grid-cols-[repeat(auto-fit,minmax(8em,1fr))] gap-10 overflow-hidden" id="skill-box">
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(7em,1fr))] gap-10 overflow-hidden" id="skill-box">
         {skills.map((value, index) => (
           <SkillBox key={index} title={value.title} image={value.image} />
         ))}

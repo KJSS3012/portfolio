@@ -2,7 +2,8 @@ import React from "react";
 
 function ContainerProjects({ children }) {
   return (
-    <main className="flex flex-col w-screen h-screen bg-custom-black py-12 px-6 gap-20 items-center">
+    <main className="flex flex-col w-screen bg-custom-black py-12 gap-20"
+    style={{ padding: "5vh 3rem 20vh 3rem" }}>
       {children}
     </main>
   );

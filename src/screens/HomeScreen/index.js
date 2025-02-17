@@ -1,6 +1,12 @@
 import React, { Fragment, useState } from "react";
-import { Header, Container } from "../../components";
-import { InitialSection, AboutSection, SkillSection, EducationSection, MainProjectsSection } from "../../sections";
+import { Header, Container, Footer } from "../../components";
+import {
+  InitialSection,
+  AboutSection,
+  SkillSection,
+  EducationSection,
+  ProjectsSection,
+} from "../../sections";
 
 function HomeScreen() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,9 +23,10 @@ function HomeScreen() {
       <Container>
         <InitialSection />
         <AboutSection />
-        <SkillSection/>
-        <EducationSection/>
-        {/* <MainProjectsSection/> */}
+        <SkillSection />
+        <EducationSection />
+        <ProjectsSection />
+        <Footer/>
       </Container>
     </Fragment>
   );

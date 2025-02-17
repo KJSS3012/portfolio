@@ -29,10 +29,10 @@ function EducationSection() {
       <SectionTitle>Minhas Formações</SectionTitle>
       <div className="flex flex-col">
         {education.map((value, index) => (
-          <div key={index} className="flex gap-5">
+          <div key={index} className="flex gap-2 md:gap-5">
             <div className="w-full pb-16 pt-1">
                 <p
-                  className="text-white text-right text-lg md:text-2xl font-bold overflow-hidden"
+                  className="text-white text-right text-lg md:text-2xl font-bold overflow-x-hidden"
                   data-aos="fade-right"
                 >
                   {value.title}

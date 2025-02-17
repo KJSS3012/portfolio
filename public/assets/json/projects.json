@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Ternura na Cozinha",
+    "description": "Ternura na Cozinha é um espaço para armazenar e organizar receitas em categorias, como um livro de receitas da vovó. A plataforma preserva e compartilha não só pratos culinários, mas também memórias e tradições familiares.",
+    "image": "/assets/img/projects/ternura-na-cozinha.png",
+    "technologies": ["Laravel", "PHP", "Bootstrap", "MySQL"],
+    "frontLink": "",
+    "backLink": "https://github.com/KJSS3012/ternura-na-cozinha"
+  },
+  {
+    "title": "JS Notes",
+    "description": "A JS Notes é uma plataforma projetada para cadastramento de notas diárias. Ela permite a gestão de dados de forma eficiente e segura, fornecendo os serviços necessários para a comunicação entre a interface do usuário e o banco de dados.",
+    "image": "/assets/img/projects/js-notes.png",
+    "technologies": ["JavaScript", "Express", "MongoDB"],
+    "frontLink": "https://github.com/KJSS3012/note-react",
+    "backLink": "https://github.com/KJSS3012/note-api"
+  },
+  {
+    "title": "Septandara",
+    "description": "Septandara é um jogo de plataforma 2D desenvolvido com a Unity. O jogo tem o objetivo de ajudar os jovens a aprender sobre a importância do estudo da matemática, explorando diversos conceitos de uma forma divertida.",
+    "image": "/assets/img/projects/septandara.png",
+    "technologies": ["C#", "Unity"],
+    "frontLink": "https://github.com/eduardamirelly/septandara-website",
+    "backLink": "https://github.com/eduardamirelly/septandara-game"
+  },
+  {
+    "title": "Health-Web",
+    "description": "O projeto visa desenvolver um software para profissionais de clínicas de saúde, automatizando tarefas e otimizando a organização da equipe. Com a colaboração de desenvolvedores e designers, o objetivo é criar um site funcional que atenda às necessidades da plataforma.",
+    "image": "/assets/img/projects/health-web.png",
+    "technologies": ["Laravel", "PHP", "Bootstrap", "MySQL"],
+    "frontLink": "",
+    "backLink": "https://github.com/charlon-156/Health-Web"
+  },
+  {
+    "title": "PDF Studio",
+    "description": "(EM DESENVOLVIMENTO) O PDF Studio é um leitor de PDF desenvolvido com Angular e Electron, combinando a flexibilidade do Angular para interfaces web com a capacidade do Electron de criar aplicativos desktop. Ele oferece funcionalidades avançadas para visualização, edição e anotação de PDFs, tornando-se uma alternativa robusta para quem precisa trabalhar com documentos de forma eficiente.",
+    "image": "/assets/img/projects/desenvolvimento.png",
+    "technologies": ["Angular", "Electron"],
+    "frontLink": "",
+    "backLink": ""
+  },
+  {
+    "title": "MED/VET",
+    "description": "(EM DESENVOLVIMENTO) MED/VET é um player HLS que facilita o controle da visualização de vídeos, permitindo o gerenciamento do que já foi assistido.",
+    "image": "/assets/img/projects/desenvolvimento.png",
+    "technologies": ["Angular", "Express", "MongoDB"],
+    "frontLink": "",
+    "backLink": ""
+  },
+  {
+    "title": "Portfolio",
+    "description": "Portfolio é o site onde você se encontra, mostrando um pouco da minha história e meus projetos",
+    "image": "/assets/img/projects/portfolio.png",
+    "technologies": ["React", "JavaScript", "Tailwind"],
+    "frontLink": "https://github.com/KJSS3012/portfolio",
+    "backLink": ""
+  }
+]
