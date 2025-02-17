@@ -7,7 +7,6 @@ function BlueButtom(props) {
       href={props.href}
       target={props.isCurriculum ? "_blank" : undefined}
       rel={props.isCurriculum ? "noopener noreferrer" : undefined}
-      download={props.isCurriculum ? "curriculum.pdf" : undefined}
     >
       {props.title}
     </a>

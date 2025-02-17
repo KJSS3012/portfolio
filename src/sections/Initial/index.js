@@ -11,7 +11,7 @@ function InitialSection() {
   const githubLink = "https://github.com/KJSS3012";
   const linkedinLink = "https://linkedin.com/in/kaiquesantos-dev";
   const linktreeLink = "https://linktr.ee/kaiquesantos.dev";
-  const curricukum = "/assets/pdf/curriculum.pdf";
+  const curricukum = "/pdf/curriculum.pdf";
 
   return (
     <section className="flex lg:flex-row flex-col lg:justify-between lg:gap-0 gap-10">
